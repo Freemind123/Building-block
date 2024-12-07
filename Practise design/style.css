@@ -1,0 +1,202 @@
+/* CSS for BuildingBlocks Homepage */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    padding: 10px 20px;
+    background-color: #fff;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    padding:  0 80px;
+}
+
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+header nav a.active {
+    color: #FF5A3C;
+    font-weight: bold;
+}
+header nav .contact-button {
+    background-color: orangered;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+header nav .contact-button:hover {
+    background-color: #e34930;
+}
+
+
+
+.hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ffe8e02a;
+}
+
+.hero-section h1 {
+   
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:  0 20px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-section button {
+    background: #FF6F3D;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    
+}
+.hero-section img {
+    max-width: 800px;
+    border-radius: 10px;
+    justify-content: center;
+    
+} 
+
+.partner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    background: #fff;
+}
+
+.partner-section h2 {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.partner-section p {
+    
+    margin-bottom: 20px;
+}
+
+.partner-section button {
+    background: #FF6F3D;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.partner-section img {
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    background: #Ffff;
+}
+
+.stats-section .stat {
+    text-align: center;
+}
+
+.stats-section h3 {
+    font-size: 2rem;
+    color: #FF6F3D;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cta-section button {
+    background: #FF6F3D;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color:brown;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+    flex: 1;
+    min-width: 300px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    color: #FFCCBC;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #FF5722;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
