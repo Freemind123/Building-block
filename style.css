@@ -1,0 +1,302 @@
+/* CSS for BuildingBlocks Homepage */
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-family: "Lora";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+}
+.subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #6b7280;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.header_content {
+  padding: 18px 0px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav_item {
+  text-decoration: none;
+  color: #6b7280;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+header nav a.active {
+  color: #d13400;
+  font-weight: bold;
+}
+header nav .contact-button {
+  background-color: orangered;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+header nav .contact-button:hover {
+  background-color: #e34930;
+}
+
+.contact-button a {
+  color: #fff;
+}
+
+.hero-section {
+  margin-top: 80px;
+  text-align: center;
+  background: linear-gradient(180deg, #fff 0%, #ffece5 101.49%);
+}
+
+.hero-section button {
+  background: #ff4405;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-bottom: 48px;
+}
+.hero-section img {
+  max-width: 800px;
+  border-radius: 12.8px;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+
+.partner-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+  background: #fff;
+  padding: 64px 0px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.partner-section h2 {
+  color: #000;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  font-family: "Lora";
+  margin-bottom: 16px;
+}
+
+.partner-section p {
+  margin-bottom: 20px;
+  color: #6b7280;
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.partner-section button {
+  background: #ff4405;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.partner-section img {
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.stats-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 47px 0px;
+  background: #ffff;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.our-stat {
+  font-family: "Lora";
+  color: #000;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  margin: 0;
+}
+
+.stat-label {
+  color: #6b7280;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 16px;
+}
+
+.stat-right {
+  width: 48%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 58px;
+}
+
+.label {
+  color: #ff6a38;
+}
+
+.title {
+  color: #111827;
+  font-weight: 600;
+}
+
+.cta-section {
+  text-align: center;
+  width: 70%;
+  margin: 100px auto;
+  background: #fff;
+}
+
+.cta-section h2 {
+  font-family: "Lora";
+  color: #000;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.cta-section button {
+  background: #ff4405;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #661a00;
+}
+
+.footer-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 62px 0px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-about {
+  width: 55%;
+}
+.footer-right {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-about_text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 24px;
+}
+.footer-header {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin: 5px 0;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer-links ul li a:hover {
+  color: #ff5722;
+}
+
+.footer-contact_text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer-bottom {
+  padding: 30px 0;
+  width: 100%;
+}
+.footer-bottom_text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}

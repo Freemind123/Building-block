@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Building blocks </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+      <div class="header_content">
         <div class="logo">
             <svg width="170" height="33" viewBox="0 0 170 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <mask id="mask0_0_1" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="33">
@@ -47,39 +51,52 @@
                 <stop offset="1" stop-color="white" stop-opacity="0"/>
                 </linearGradient>
                 </defs>
-                </svg></div>
-        <nav>
-            <a href="#"class="active">Home</a>
-            <a href="#" >About</a>
-            <button class="contact-button">Contact Us </button>
+                </svg>
+        </div>
+        <nav class="nav">
+            <a href="/" class="nav_item">Home</a>
+            <a href="/about" class="nav_item active">About</a>
+            <button class="contact-button">
+              <a href="/contact-us" class="nav_item">Contact Us</a>
+            </button>
         </nav>
+      </div>
     </header>
 <section class="hero-section">
     <div class="container">
-        <h1>Empowering your ideas with Cutting Edge Software Solutions</h1>
-        <p>Innovative, scalable and user focused software to drive your business forward</p>
-        <form><button type="submit" class="button2">Contact us</button></form>
+        <h1>Empowering Your Ideas with Cutting-Edge Software Solutions</h1>
+        <p class="subtitle">Innovative, scalable and user focused software to drive your business forward</p>
+       <button type="submit" class="button2">Contact us</button>
     </div>
-        <img src="img/image1.jpg" alt="image">
+    <img src="img/image1.jpg" alt="image">
     
 </section>
    
 <section class="partner-section">
     <div class="showcase"><h2>Your Partner in Digital Transformation</h2>
-    <p>We deliver innovative, user-focused software solutions that drive business growth. Guided by our values of innovation, collaboration, and excellence, we specialize in creating custom software, mobile apps, and cloud solutions tailored to your needs.</p>
-    <button>Read More</button></div>
+        <p>We deliver innovative, user-focused software solutions that drive business growth. </p>
+   <p>Guided by our values of innovation, collaboration, and excellence, we specialize in creating custom software, mobile apps, and cloud solutions tailored to your needs.</p>
+        <button>Read More</button></div>
     <div><img src="./img/image2.jpg" alt="Software Development"></div>
 </section>
 
 <section class="stats-section">
-    <div class="stat">
-        <h3>10+</h3>
-        <p>Years of Experience</p>
+    <div>
+        <h2 class="our-stat">Our Stats</h2>
+        <p class="stat-label">We help you to Unleash the power with your business</p>
     </div>
-    <div class="stat">
-        <h3>50+</h3>
-        <p>Successful Projects</p>
+ <div class="stat-right">
+    <div>
+        <h2 class="our-stat label">10+</h2>
+        <p class="stat-label title">Years of Experience</p>
     </div>
+    <div>
+        <h2 class="our-stat label">50+</h2>
+        <p class="stat-label title">Successful Projects</p>
+    </div>
+  
+
+ </div>
 </section>
 
 <section class="cta-section">
@@ -92,10 +109,11 @@
     <div class="footer-container">
         <div class="footer-about">
             <h3>BuildingBlocks</h3>
-            <p>We are passionate about leveraging technology to solve real-world challenges. With a focus on innovation, agility, and collaboration, we craft bespoke software solutions that empower businesses to thrive in the digital age.</p>
+            <p class="footer-about_text">We are passionate about leveraging technology to solve real-world challenges. With a focus on innovation, agility, and collaboration, we craft bespoke software solutions that empower businesses to thrive in the digital age.</p>
         </div>
+       <di class="footer-right">
         <div class="footer-links">
-            <h4>Helpful Links</h4>
+            <h4 class="footer-header">Helpful Links</h4>
             <ul>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Support</a></li>
@@ -104,14 +122,16 @@
             </ul>
         </div>
         <div class="footer-contact">
-            <h4>Contact us</h4>
-            <p>+234 810281875</p>
-            <p>info@Buildingblock.co.uk</p>
+            <h4 class="footer-header">Contact us</h4>
+            <p class="footer-contact_text">+234 810281875</p>
+            <p class="footer-contact_text">info@Buildingblock.co.uk</p>
             
         </div>
+     
+       </di>
     </div>
     <div class="footer-bottom">
-        <p>&copy; 2024 BuildingBlocks | All Reserved</p>
+        <p class="footer-bottom_text">&copy; 2024 BuildingBlocks | All Reserved</p>
     </div>
 </footer>
 </body>
